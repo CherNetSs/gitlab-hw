@@ -134,7 +134,5 @@ git push origin main
 
 ## Ссылка на commit
 
-Ссылка на commit:
 
-`https://github.com/CherNetSs/gitlab-hw/commit/0c64e1a1d1060e80138ebcb9b0a628f4972228e0``text
-```
+[Ссылка на commit](https://github.com/CherNetSs/gitlab-hw/commit/0c64e1a1d1060e80138ebcb9b0a628f4972228e0)
