@@ -136,3 +136,69 @@ git push origin main
 
 
 [Ссылка на commit](https://github.com/CherNetSs/gitlab-hw/commit/0c64e1a1d1060e80138ebcb9b0a628f4972228e0)
+
+
+# Задание 2
+
+## Создание файла .gitignore
+
+Был создан файл `.gitignore`.
+
+Проверка статуса репозитория:
+
+```bash
+git status
+```
+
+Результат:
+
+```text
+Untracked files:
+  .gitignore
+```
+
+---
+
+## Добавление правил игнорирования
+
+В файл `.gitignore` были добавлены правила:
+
+```gitignore
+*.pyc
+cache/
+```
+
+Данные правила:
+
+* игнорируют все файлы с расширением `.pyc`;
+* игнорируют директорию `cache` и всё её содержимое.
+
+---
+
+## Добавление файла в commit
+
+```bash
+git add .gitignore
+```
+
+---
+
+## Создание commit
+
+```bash
+git commit -m "added gitignore"
+```
+
+---
+
+## Отправка изменений на GitHub
+
+```bash
+git push
+```
+
+---
+
+## Ссылка на commit
+
+[Ссылка на commit](ВСТАВИТЬ_ССЫЛКУ_НА_COMMIT)
