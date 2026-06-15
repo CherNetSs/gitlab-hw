@@ -202,3 +202,98 @@ git push
 ## Ссылка на commit
 
 [Ссылка на commit](https://github.com/CherNetSs/gitlab-hw/commit/4e3d804d775bb285d8b12fb87f8a4d974a036b5b)
+
+
+# Задание 3
+
+## Работа с ветками
+
+Была создана новая ветка `dev`:
+
+```bash
+git checkout -b dev
+```
+
+В ветке `dev` был создан файл `test.sh`:
+
+```bash
+#!/bin/bash
+echo "Dev version 1"
+```
+
+Был выполнен первый commit и push:
+
+```bash
+git add test.sh
+git commit -m "add test script"
+git push -u origin dev
+```
+
+Затем файл `test.sh` был изменён:
+
+```bash
+#!/bin/bash
+echo "Dev version 1"
+echo "Dev version 2"
+```
+
+Был выполнен второй commit и push:
+
+```bash
+git add test.sh
+git commit -m "update test script"
+git push
+```
+
+---
+
+## Работа в основной ветке
+
+После этого выполнено переключение в основную ветку:
+
+```bash
+git checkout main
+```
+
+В основной ветке был создан файл `main.sh`:
+
+```bash
+#!/bin/bash
+echo "Main branch script"
+```
+
+Был выполнен commit и push:
+
+```bash
+git add main.sh
+git commit -m "add main script"
+git push
+```
+
+---
+
+## Слияние ветки dev в main
+
+Ветка `dev` была объединена с основной веткой:
+
+```bash
+git merge dev --no-ff
+```
+
+Сообщение merge commit:
+
+```text
+Merge dev branch into main
+```
+
+После этого изменения были отправлены на GitHub:
+
+```bash
+git push
+```
+
+---
+
+## Ссылка на граф коммитов
+
+[Граф коммитов](https://github.com/CherNetSs/gitlab-hw/network)
