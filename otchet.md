@@ -201,4 +201,4 @@ git push
 
 ## Ссылка на commit
 
-[Ссылка на commit](ВСТАВИТЬ_ССЫЛКУ_НА_COMMIT)
+[Ссылка на commit](https://github.com/CherNetSs/gitlab-hw/commit/4e3d804d775bb285d8b12fb87f8a4d974a036b5b)
